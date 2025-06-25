@@ -1,0 +1,126 @@
+[
+  {
+    "url": "https://www.dvwa.co.uk/",
+    "status_code": 200,
+    "headers": {
+      "server": "cloudflare",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "Vulnerabilities": [
+      {
+        "path": "/.git/",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/.env",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/config.php",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/phpinfo.php",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/.htaccess",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/.htpasswd",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/backup/",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/admin/",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/wp-config.php",
+        "status": 403,
+        "length": 4570,
+        "suspicious": true
+      },
+      {
+        "path": "/etc/passwd",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/../../../../../../etc/passwd",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/server-status",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/debug",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/test",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/dev",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/logs",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/backup.zip",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "git/config",
+        "status": 403,
+        "length": 52,
+        "suspicious": true
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "length": 266,
+        "suspicious": true
+      }
+    ]
+  }
+]
